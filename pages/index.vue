@@ -1,10 +1,13 @@
 <template>
-<div>
+  <div>
+    <Hello />
+    <Skills />
+    <Projects />
   </div>
 </template>
 
 <script>
-export default {}
+export default {};
 </script>
 
 <style>

@@ -1,6 +1,9 @@
 module.exports = {
   darkMode: 'class',
   theme: {
+    fontFamily:{
+      'title': ['Montserrat', 'sans-serif']
+    },
     extend: {
       colors:{
         royalblue: {
