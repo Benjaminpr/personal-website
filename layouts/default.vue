@@ -36,7 +36,7 @@ html {
   color: theme("colors.royalblue.500");
 }
 a{
-  color: theme("colors.royalblue.500");
+  color: theme("colors.royalblue.400");
   text-decoration: underline;
 }
 *,

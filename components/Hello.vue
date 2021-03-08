@@ -3,6 +3,7 @@
     <div class="mx-auto max-w-6xl flex items-center mt-10 flex-col md:flex-row">
       <img
         src="~/assets/img/profile.jpg"
+        srcset="~/assets/img/profile.jpg"
         loading="lazy"
         class="rounded-full border-indigo-500 dark:border-gray-700 border-4 mb-4 md:mb-0"
         alt=""

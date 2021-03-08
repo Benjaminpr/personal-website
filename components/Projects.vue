@@ -60,14 +60,14 @@
 </template>
 <style lang="scss" scoped>
 .project {
-  @apply bg-white dark:bg-gray-700 m-2 rounded-xl shadow-lg items-center flex;
+  @apply bg-white dark:bg-gray-800 m-2 rounded-xl shadow-lg items-center flex;
   @media screen and (min-width: 768px) {
     flex: 1 0 45%;
     max-width: 45%;
   }
 }
 .pill {
-  @apply bg-indigo-500 rounded-xl text-sm text-white px-3 mr-2 mt-1 inline-block;
+  @apply bg-indigo-600 rounded-xl text-sm text-white px-3 mr-2 mt-1 inline-block;
   &:first-child {
     margin-right: 0;
   }
