@@ -1,13 +1,15 @@
 <template>
   <div>
-    <div class="mx-auto max-w-6xl flex items-center mt-10 flex-col md:flex-row">
+    <div class="mx-auto max-w-6xl flex items-center mt-10 px-8 md:px-0 flex-col md:flex-row">
       <img
-        src="~/assets/img/profile.jpg"
+        width="250px"
+        height="250px"
+        src="~/assets/img/profile_500.jpg"
         loading="lazy"
         class="rounded-full border-indigo-500 dark:border-gray-700 border-4 mb-4 md:mb-0"
         alt=""
       />
-      <div class="ml-8">
+      <div class="md:ml-8">
         <p class="font-title font-bold text-3xl">
           Bonjour ! 👋 Je suis <span class="text-indigo-500">Benjamin</span>
           <br />
