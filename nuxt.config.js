@@ -4,15 +4,21 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'portfolio',
+    title: 'Benjamin - Développeur full-stack',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'description', name: 'description', content: 'Hello ! Je suis Benjamin, développeur full-stack spécialisé en e-commerce.' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,300&family=Space+Grotesk:wght@400;700&display=swap' },
+      {
+        rel: "preconnect",
+        href: "https://fonts.gstatic.com",
+        crossorigin: true
+      },
+      { rel: 'preload', as: 'style', href: 'https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Space+Grotesk&display=swap' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Space+Grotesk&display=swap' },
     ]
   },
 

@@ -343,7 +343,7 @@
       position: absolute;
       right: -8px;
       top: -5px;
-      @apply bg-indigo-500 text-white rounded px-2;
+      @apply bg-indigo-600 text-white rounded px-2;
   }
 }
 svg {
