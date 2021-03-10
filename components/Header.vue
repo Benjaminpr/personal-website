@@ -100,7 +100,8 @@ export default {
   methods: {
     changeColor(color) {
       console.log(this.$colorMode.value);
-      this.$colorMode.value = color;
+      //this.$colorMode.value = color;
+      this.$colorMode.preference = color;
     },
     activeMode(mode) {
       if (mode == this.$colorMode.value) {
