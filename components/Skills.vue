@@ -1,6 +1,6 @@
 <template>
   <div class="max-w-6xl mx-auto mt-12">
-    <h2 class="h2 text-2xl text-center">Mes compétences</h2>
+    <div class="text-2xl text-center font-title font-bold bg-indigo-500 text-white inline-block py-1 px-4">Mes compétences</div>
     <div class="flex flex-wrap mt-4 justify-center">
       <div class="skills">
         <svg
