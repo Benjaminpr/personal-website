@@ -17,10 +17,10 @@
           <span class="text-indigo-500">full stack</span> passionné<br />
         </p>
         <p class="mt-2">
-          Depuis tout petit, je suis fan de tout ce qui touche à la science et
-          aux technologies. J'ai fait de cette passion mon métier ! Je suis
-          aujourd'hui un développeur full-stack en agence de Communication,
-          travaillant principalement sur du e-commerce, découvrant de nouvelles
+          Depuis tout petit, je suis fan de tout ce qui touche à <span class="highlight">la science et
+          aux technologies</span>. J'ai fait de cette passion mon métier ! Je suis
+          aujourd'hui un <span class="highlight">développeur full-stack</span> en agence de communication,
+          travaillant principalement sur du <span class="highlight">e-commerce</span>, découvrant de nouvelles
           technos sur mon temps libre.
         </p>
       </div>
@@ -39,7 +39,7 @@
           Je suis né au pied du Mont Blanc, dans la vallée de l'Arve. Grandir
           dans cet environnement m'a donné le gout de la montagne et de la
           nature, tant en hiver qu'en été ! Cela m'a aussi inculqué des notions
-          d'écologies, en me faisant prendre conscience que cet environnement
+          d'écologie en me faisant prendre conscience que cet environnement
           est précieux et qu'il faut le préserver. J'adore cuisiner sur mon
           temps libre, surtout pour faire plaisir à mes proches. Découvrir de
           nouvelles recettes, les réussir après parfois plusieurs échecs, mais
@@ -57,5 +57,8 @@
 <style lang="scss" scoped>
 .bio {
   @apply max-w-6xl mx-auto flex mt-10 border-dashed border-t-4 border-b-4 border-indigo-500 py-10  flex-col md:flex-row px-8 md:px-0;
+}
+.highlight {
+  @apply bg-indigo-500 text-white px-1;
 }
 </style>
