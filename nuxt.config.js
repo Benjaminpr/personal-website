@@ -73,7 +73,7 @@ export default {
     classSuffix: "",
   },
   tailwindcss: {
-    jit: true,
+    jit: false,
   },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
