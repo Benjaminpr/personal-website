@@ -56,7 +56,10 @@
 </template>
 <style lang="scss" scoped>
 .bio {
-  @apply max-w-6xl mx-auto flex mt-10 border-dashed border-t-4 border-b-4 border-indigo-500 py-10  flex-col md:flex-row px-8 md:px-0;
+  @apply max-w-6xl mx-auto flex mt-10 border-dashed border-t-4 border-b-4 border-indigo-500 py-10 flex-col px-8;
+  @screen md {
+    @apply flex-row px-0;
+  }
 }
 .highlight {
   @apply bg-indigo-500 text-white px-1;
