@@ -62,6 +62,6 @@
   }
 }
 .highlight {
-  @apply bg-indigo-500 text-white px-1;
+  @apply bg-indigo-600 text-white px-1;
 }
 </style>
