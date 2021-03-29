@@ -37,6 +37,7 @@
             Le développment du site est toujours en cours, on l'améliore au fur
             et à mesure.
           </p>
+          <p class="mt-2 text-sm italic"><strong>Pistes d'améliorations :</strong> Meilleure UX, notamment au niveau de la recherche (Recherche type Le Bon Coin, Airbnb), mise en place d'une carte des producteurs avec Mapbox ou Leaflet, page producteur plus poussée, travaillée et personnalisable par le producteur.</p>
           <p class="mt-1">
             👉
             <a href="https://jeveuxconsommerlocal.fr"
@@ -63,9 +64,10 @@
             Cela faisait longtemps que j'avais envie de réaliser mon propre
             site, où je pourrais mettre tout ce qui me concerne
             professionnellement. Quelques mots sur moi, mes compétences, ce que
-            j'ai pu faire, et même un petit blog afin de partager mes
-            découvertes et mes connaissances !
+            j'ai pu faire ! Le but était de créer un rapide résumé du développeur que je suis, en ayant un site propre, rapide selon les critères de Google et efficace.
           </p>
+          <p class="mt-2 text-sm italic"><strong>Pistes d'améliorations :</strong> Mise en place d'un blog avec le module content de Nuxt.js, ajout d'animations sur les sections avec AnimXYZ si cela n'impact pas les performances.</p>
+
           <div class="mt-2">
             <div class="pill">Nuxt.js</div>
             <div class="pill">NetlifyCMS</div>
